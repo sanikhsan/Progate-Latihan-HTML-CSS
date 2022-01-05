@@ -1,0 +1,101 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  font-size: 36px;
+  padding: 20px 40px;
+  float: left;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+main {
+  margin: 100px 80px;
+}
+
+h1 {
+  font-size: 140px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+}
+
+span {
+ color: #ff4a4a; 
+}
+
+.contents {
+  margin: 100px 0;
+  height: 500px;
+}
+
+.contents-item {
+  padding-top: 50px;
+  padding-right: 40px;
+  float: left;
+}
+
+.contents-item p {
+  padding-top: 30px;
+  font-size: 24px;
+}
+
+.contact-form {
+  margin-bottom: 100px;
+}
+
+.contact-form p {
+  margin: 10px 0;
+}
+
+.contact-us {
+  margin-bottom: 50px;
+}
+
+.contact-us h3 {
+  padding-bottom: 15px;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+}
+
+input, textarea {
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #dee7ec;
+  color: #889eab;
+  font-size: 18px;
+}
